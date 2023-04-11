@@ -1,9 +1,12 @@
 //Write a function that takes in a string and returns it when reversed
-// let food ="eating";
 
-// food.split("").map
 
-// str(food);
+function ReverseString(str) {
+    return str.split("").reverse().join("")
+}
+
+let food = "eating";
+console.log(ReverseString(food))
 //Write a function that takes in the following array and consoles the target if it is found else null
 let num = [2,8,0,23,5,45,76];
 
@@ -50,6 +53,7 @@ let target = 23
 
 //Given years between 2000 and 2023, console all the leap years in the following
 //sentence, i.e “2020 is a leap year” if not console log i.e “2001 is not a leap year”
+
 let years=[2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023]
 for(let i=0;i<=years.length-1;){
     i++
